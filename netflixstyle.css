@@ -1,0 +1,371 @@
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#303030;
+    color: #f3f3f3;
+    direction: ltr;
+    font-family:Helvetica,sans-serif;
+    font-size: 16px;
+}
+h2{
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+h1{
+       font-size: 50px;
+        
+    
+}
+/* SECTION 1 STARTS */
+.section1{
+    background:radial-gradient(rgba(4,4,4,0.508),rgb(4,4,4)), url(images/netflixbackground.jpg);
+    background-size: cover;   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.section1-text h1{
+    font-size: 60px;
+}
+.header {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+}
+
+.left-header{
+    width: 35%;
+}
+
+#netflix-logo {
+    height: 55px;
+    width: 178px;
+    margin-left: 50px;
+}
+
+.right-header {
+    margin-right: 20px;
+    width: 65%;
+    display: flex;
+    justify-content:end;
+}
+.right-header p{
+    font-size: 15px;
+}
+
+#lang-button {
+    width: 100px;
+    height: 35px;
+    color: #fff;
+    border: #fff 1px solid;
+    background-color: black;
+    margin-left: 100px;
+    margin-right: 20px;
+    
+}
+#signin-button{
+    height:35px ;
+    width: 90px;
+    color: #fff;
+    background-color: #e50914;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+ .section1-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    height: 100%;    
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.section1-text h3{
+    margin-top: 20px;
+}
+.email{
+    margin-top: 20px;
+    width: 500px;
+    height: 70px;
+    border: 0;
+    
+}
+.getstarted{
+   
+    
+    margin-top: 35px;
+    border: 0;
+    margin-left: -3px;
+    width: 250px;
+    height: 70px; 
+    color: white;
+    background-color: #e50914;
+    
+    
+}
+.getstarted p{
+    margin-bottom: 12px;
+    font-size: 30px;
+   
+    
+}
+
+/* SECTION 1 END */
+/* SECTION 2 STARTS */
+.section2{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.section2-text{
+    width: 35%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+.section2-text h1{
+    font-size: 50px;
+    
+}
+.section2-media{
+    width: 30%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.section2-img{
+    display: flex;
+    align-items:center ;
+    position: absolute;
+   
+}
+.section2-vdo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    
+}
+
+
+
+/* SECTION 2 ENDS */
+/* SECTION 3 STARTS */
+.section3{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.section3-media{
+    width: 50%;
+    display: flex;
+   justify-content: center;   
+   position: relative;
+}
+.section3-img img{
+    width: 500px;
+    height: 400px;    
+}
+.section3-media-bottom {
+    width: 300px;
+    height: 90px;
+    display: flex;
+    margin-top: 260px;
+    align-items: center;
+    border-radius: 10px;
+    border:#303030 solid;
+    position: absolute;
+
+    background-color: black;
+}
+.section3-media-bottom img{
+    width: 50px;
+    height: 70px;
+
+}
+.section3-text h1{
+    font-size: 50px;
+    
+}
+
+.section3-text {
+    width: 50%;   
+}
+.section3-media-bottom-text{
+    margin-left: 10px;
+}
+.section3-media-bottom-text p{
+    color: blue;
+
+}
+/* SECTION 3 ENDS */
+
+/* SECTION 4 STARTS */
+
+.section4{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.section4-text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.section4-media{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+.section4-img{
+    position: absolute;
+    margin-top: 60px;
+   
+}
+.section4-vdo{
+    margin-bottom: 60px;
+  
+    
+}
+.section4-vdo video{
+    width: 400px;
+    height: 210px;
+}
+.section4-img img{
+    width:600px ;
+    height:400px ;
+}
+
+/* SECTION 4 ENDS */
+
+/* SECTION 5 STARTS */
+.section5 {
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section5-media{
+    width: 35%;
+   
+}
+.section5-text{
+    width: 35%;
+}
+.section5-img img{
+    width: 500px;
+    height: 400px;
+}
+/* SECTION5 ENDS */
+/* SECTION 6 STARTS */
+.section6{
+    display: flex;
+    flex-direction: column;
+  justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    background-color:black;
+    height:100%;
+    width: 100%; 
+}
+.section6 h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.question1{
+display: flex;
+width: 750px;
+height: 60px;
+background-color:#333;
+margin-top: 10px;
+align-items: center;
+justify-content: space-between;
+padding: 0 30px 10px 30px ;
+cursor: pointer;
+
+}
+.section6 h3{
+    margin-top: 60px;
+}
+.section6 .emailstarted{
+    margin-bottom: 80px;
+}
+
+
+
+/* SECTION 6 ENDS */
+.section7 {
+    display: flex;
+    margin-top: 8px;
+    background-color: black;
+    color: #737373;
+    width: 100%;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    
+}
+li{
+
+    list-style: none;
+    width: 250px;
+    height: 40px;
+    /* line-height: 10px; */
+}
+.section7 h4{
+    margin-bottom: 40px;
+    
+}
+
+#lang-button-bottom{
+    width: 150px;
+    height: 50px;
+    margin-top: 0px;
+    color: #fff;
+    border: #303030 1px solid;
+    background-color:black;
+
+}
+.section7-col1{
+    margin-top: 10px;
+}
